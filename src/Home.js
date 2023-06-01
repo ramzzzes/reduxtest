@@ -13,12 +13,12 @@ const Home = () => {
             {counter}
             <br/>
             <button onClick={() => 
-            dispatch({type : "INCREMENT",payload : 5})}
+            dispatch({type : "INCREMENT",payload : 10})}
                 >
              +
             </button>
             <button onClick={() => 
-            dispatch({type : "DECREMENT",payload : 5})}
+            dispatch({type : "DECREMENT",payload : 10})}
                 >
              -
             </button>
